@@ -17,6 +17,7 @@ This Allows access via the product listing page
  `<?php echo '<a href="' . zen_href_link($type_handler, 'cPath=' . $cPath . '&product_type=' . $products->fields['products_type'] . '&pID=' . $products->fields['products_id']  . '&action=new_product' . (isset($_GET['search']) ? '&search=' . $_GET['search'] : '')) . '">' . zen_image(DIR_WS_IMAGES . 'icon_edit.gif', ICON_EDIT) . '</a>'; ?>`
  
  Add After:
+ 
  `<?php echo '<a href="' . zen_href_link(FILENAME_ADDITIONAL_IMAGES_UPLOADER, 'product_id=' . $products->fields['products_id'] ) . '"><i class="fa fa-upload"></i></a>'; ?>`
 
 ##Usage
