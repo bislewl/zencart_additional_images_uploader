@@ -17,7 +17,7 @@ if (!defined('IS_ADMIN_FLAG')) {
 $module_constant = 'MODULE_ADDITIONAL_IMAGES_UPLOADER'; // This should be a UNIQUE name followed by _VERSION for convention
 $module_installer_directory = DIR_FS_ADMIN . 'includes/installers/additional_images_uploader'; // This is the directory your installer is in, usually this is lower case
 $module_name = "Additional Images Uploader"; // This should be a plain English or Other in a user friendly way
-$zencart_com_plugin_id = 0; // from zencart.com plugins - Leave Zero not to check
+$zencart_com_plugin_id = 2188; // from zencart.com plugins - Leave Zero not to check
 //Just change the stuff above... Nothing down here should need to change
 
 
