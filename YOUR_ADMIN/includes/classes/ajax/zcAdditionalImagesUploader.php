@@ -6,8 +6,8 @@
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version Author: bislewl  2/19/2018 12:28 PM Modified in zencart_additional_images_uploader
+ *
  */
-
 
 class zcAdditionalImagesUploader extends base
 {

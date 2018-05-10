@@ -1,7 +1,12 @@
 <?php
-// use $configuration_group_id where needed
-
-// For Admin Pages
+/*
+ *
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version Author: bislewl  2/19/2018 12:18 PM Modified in zencart_additional_images_uploader
+ *
+ */
 
 $zc150 = (PROJECT_VERSION_MAJOR > 1 || (PROJECT_VERSION_MAJOR == 1 && substr(PROJECT_VERSION_MINOR, 0, 3) >= 5));
 if ($zc150) { // continue Zen Cart 1.5.0

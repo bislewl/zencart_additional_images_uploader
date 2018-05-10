@@ -1,6 +1,8 @@
 <?php
 /* 
- * 
+ *
+ *  additional_images_uploader.php
+ *
  * @package zencart_auto_installer
  * @copyright Copyright 2003-2015 ZenCart.Codes a Pro-Webs Company
  * @copyright Copyright 2003-2015 Zen Cart Development Team

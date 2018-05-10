@@ -1,5 +1,15 @@
+/**
+ *  additional_images_uploader.js
+ *
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version Author: bislewl  5/9/2018 3:07 PM Modified in zencart_additional_images_uploader
+ *
+ */
+
 function uploadAdditionalImage() {
-    var form_data = new FormData($('#additonal_image_upload')[0]);
+    var form_data = new FormData($('#additional_image_upload')[0]);
     $.ajax({
         type: 'POST',
         url: 'ajax.php?act=AdditionalImagesUploader&method=uploadAdditionalImage',
@@ -108,7 +118,7 @@ $(function () {
     $('#additionalImagesProductSearchResults').hide();
     checkProductID();
     $('input[type=file]').on('change', prepareUpload);
-    $("#additonal_image_upload").submit(function (event) {
+    $("#additional_image_upload").submit(function (event) {
         event.preventDefault();
         uploadAdditionalImage();
     });
