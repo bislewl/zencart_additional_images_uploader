@@ -1,8 +1,8 @@
-============ Additional Images Uploader for Zen Cart - Version: 1.0 ============
+============ Additional Images Uploader for Zen Cart - Version: 1.0.2 ============
 
-This module is an Beginner installation for Zen Cart 1.5.5f, although it may 
-work on other 1.5.X versions. This module was tested on PHP 5.6.33 and 
-MySQL 5.5.58-cll. 
+This module is an Beginner installation for Zen Cart 1.5.6b, although it may 
+work on other 1.5.X versions. This module was tested on PHP 5.7.26 and 
+MySQL 5.7.26. 
 
 =============== Description ===============
 
@@ -30,6 +30,9 @@ shortcut the functionality, optionally, as well.
    there are no overwrites.
 4. Load or reload your Zen Cart admin and module will self install.
   
+PRE 1.5.6 Versions:
+1. Upload the ajax.php file into your admin directory. This isn't needed as 1.5.6 now supports this
+2. Move the File 
 ============= OPTIONAL Core Modification =============
 
 This modification allows access via the admin product listing page.
@@ -70,7 +73,9 @@ https://zencart.codes/index.php?main_page=product_info&cPath=32&products_id=92
 
 ===============Version History===============
 
-02/20/2018 1.0 PRO-Webs.net - Initial Release
+02/20/2018 1.0.0 PRO-Webs.net - Initial Release
+05/09/2018 1.0.1 PRO-Webs.net - Language Changes, ZC Plugin ID Updated
+06/15/2019 1.0.2 PRO-Webs.net - File/Directory Changes to support version 1.5.6, with instructions/filed for previous versions
 
 ===============Legal===============
 
